@@ -14,7 +14,7 @@ window.addEventListener('DOMContentLoaded', () => {
 });
 
 function prio_upd(val){
-	document.body.classList.toggle(`prio${val}`, true);
+	document.body.dataset.prio=val;
 	prio_inputs[val].checked = true;
 };
 
